@@ -6,6 +6,7 @@ public class test_git {
 		String ch = "test github";
 		System.out.println(ch);
 		System.out.println("test print");
+		System.out.printf(ch);
 	}
 
 }
