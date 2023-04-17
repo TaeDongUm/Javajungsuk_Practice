@@ -36,7 +36,7 @@ public class PrintEx1 {
 		System.out.printf("[%s]%n", "www.codechobo.com");
 		System.out.printf("[%20s]%n", "www.codechobo.com");
 		System.out.printf("[%-20s]%n", "www.codechobo.com");
-		System.out.printf("[%.10s]%n", "www.codechobo.com"); // 전체자리 생략함33
+		System.out.printf("[%.10s]%n", "www.codechobo.com"); // 전체자리 생략함44
 		
 	}
 
