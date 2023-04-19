@@ -1,7 +1,21 @@
 class Ex3_11 {
 	public static void main(String args[]) { 
 		double pi = 3.141592; 
-		double shortPi = Math.round(pi * 1000) / 1000.0;
-		System.out.println(shortPi);
+//		// 3.142를 얻으려면?
+//		System.out.println(pi);
+//		System.out.println(pi*1000);
+//		System.out.println(Math.round(pi*1000));
+//		System.out.println(Math.round(pi*1000)/1000); // 3
+//		// 어느 한쪽을 형변환해주면 된다.
+//		System.out.println((double)Math.round(pi*1000)/1000); // 3.142
+//		System.out.println(Math.round(pi*1000)/1000.0); // 3.142
+//		double shortPi = Math.round(pi * 1000) / 1000.0;
+//		System.out.println(shortPi);
+//		
+		// 3.14을 얻으려면 (값손실을 이용해보면)
+		System.out.println(pi*1000);
+		System.out.println((int)(pi*1000));
+		System.out.println((int)(pi*1000)/1000);
+		System.out.println((int)(pi*1000)/1000.0);
 	}
 }
