@@ -4,6 +4,6 @@ class Ex4_17 {
 			if (i%3==0)
 				continue;
 			System.out.println(i);
-		}
+		} // continue를 통해 작업을 수행하지 않고, 괄호 끝으로 간다.
 	}
 }

@@ -3,7 +3,7 @@ class Ex4_16 {
 		int sum = 0;
 		int i   = 0;
 
-		while(true) {
+		while(true) { // 무한 반복문 for문의 경우 for(;;) {}
 			if(sum > 100)
 				break;
 			++i;
