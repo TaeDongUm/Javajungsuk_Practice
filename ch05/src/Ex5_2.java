@@ -4,7 +4,12 @@ class Ex5_2 {
 		float average = 0f; // 평균을 저장하기 위한 변수
 
 		int[] score = {100, 88, 100, 100, 90};
-
+		
+		System.out.println(score[0]);
+		System.out.println(score[1]);
+		System.out.println(score[2]);
+		System.out.println(score[3]);
+		System.out.println(score[4]);
 		for (int i=0; i < score.length ; i++ ) {
 			sum += score[i];
 		}
