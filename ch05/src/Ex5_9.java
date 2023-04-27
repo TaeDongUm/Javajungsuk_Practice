@@ -11,7 +11,7 @@ class Ex5_9 {
 		int korTotal = 0, engTotal = 0, mathTotal = 0;
 
 	    System.out.println("번호  국어  영어  수학  총점  평균 ");
-	    System.out.println("=============================");
+	    System.out.println("-----------------------------");
 
 		for(int i=0;i < score.length;i++) {
 			int  sum = 0;      // 개인별 총점
@@ -31,7 +31,7 @@ class Ex5_9 {
 			System.out.printf("%5d %5.1f%n", sum, avg);
 		}
 
-		System.out.println("=============================");
+		System.out.println("-----------------------------");
      	System.out.printf("총점:%3d %4d %4d%n", korTotal, engTotal, mathTotal);
 	}
 }
