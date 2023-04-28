@@ -1,3 +1,5 @@
+import java.util.Arrays;	// ctrl + shift + O 자동 import 완성
+
 class Ex5_5 { 
 	public static void main(String[] args) { 
 		int[] ball = new int[45];  // 45개의 정수값을 저장하기 위한 배열 생성.      
@@ -21,5 +23,6 @@ class Ex5_5 {
 		// 배열 ball의 앞에서 부터 6개의 요소를 출력한다.
 		for(int i=0; i < 6; i++) 
 			System.out.printf("ball[%d]=%d%n", i, ball[i]); 
+//			System.out.println(Arrays.toString(ball));
 	} 
 }
