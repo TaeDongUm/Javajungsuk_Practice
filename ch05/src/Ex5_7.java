@@ -1,3 +1,4 @@
+// 입력 받은 값으로 문자열 배열을 만든다. main 메서드 내의 args를 사용하게 된다.
 class Ex5_7 {
 	public static void main(String[] args) {
 		System.out.println("매개변수의 개수:"+args.length);
@@ -6,3 +7,7 @@ class Ex5_7 {
 		}
 	}
 }
+// 매개변수의 개수:3
+//args[0] = "abc"
+//args[1] = "123"
+//args[2] = "Hello world"
