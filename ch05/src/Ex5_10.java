@@ -11,12 +11,12 @@ class Ex5_10{
 		Scanner scanner = new Scanner(System.in);
 
 		for(int i=0;i<words.length;i++) {
-			System.out.printf("Q%d. %s의 뜻은?", i+1, words[i][0]);
+			System.out.printf("Q%d. %s의 뜻은?", i+1, words[i][0]);	// %s는 String 출력에 쓰임
 
 			String tmp = scanner.nextLine();
 
 			if(tmp.equals(words[i][1])) {
-				System.out.printf("정답입니다.%n%n");
+				System.out.printf("정답입니다.%n%n");		// \n 줄바꿈 문자는 os마다 달라서 공통으로 쓸 수 있는 %n으로 쓰는 것
 			} else {
 			   System.out.printf("틀렸습니다. 정답은 %s입니다.%n%n",words[i][1]);
 			}
