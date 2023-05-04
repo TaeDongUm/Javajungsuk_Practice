@@ -2,14 +2,29 @@ import java.util.Arrays; // ctrl + shift + o 자동으로 import문을 작성
 
 class Ex5_1_5 {
 	public static void main(String[] args) {
-		//			  01234
-		String str = "ABCDE";
-		char ch = str.charAt(4); // 문자열에서 하나 꺼내서 출력하기
-		String str2 = str.substring(1,4);
-		String str3 = str.substring(1); // 2번쨰를 생략하면 1부터 끝까지(아래줄과 같다)
-//		String str3 = str.substring(1,str.length());
-		System.out.println(ch);
-		System.out.println(str2); //BCD
-		System.out.println(str3); //BCDE
-}
+	int[] arr = {0,1,2,3,4};		// 1차원
+	int[][] arr2D = {{11,12},{21,22}};		//2차원 다차원
+	
+	System.out.println(Arrays.toString(arr));
+	System.out.println(Arrays.deepToString(arr2D));
+	
+	String[][] str2D = {{"aaa","bbb"},{"AAA","BBB"}};
+	String[][] str2D2 = {{"aaa","bbb"},{"AAA","BBB"}};
+	
+	// 배열은 메모리의 비어있는 공간에다가 만드는 것이기 때문, 주소값이 같을 수 없다
+	System.out.println(str2D==str2D2); // 참조변수 값을 비교하는 것 false( 두 배열이 같은 메모리상의 공간에 존재할 수 없기 때문
+	System.out.println(Arrays.deepEquals(str2D,str2D2));
+	
+	int[] arr2 = Arrays.copyOf(arr, arr.length);
+	System.out.println(Arrays.toString(arr2));
+	
+	int[] arr3 = Arrays.copyOfRange(arr, 2, 6);
+	System.out.println(Arrays.toString(arr3));
+	
+	//배열 정렬
+	int [] arr4 = {4,3,6,2,1};
+	Arrays.sort(arr4);
+	System.out.println(Arrays.toString(arr4));
+	}
+	
 }
