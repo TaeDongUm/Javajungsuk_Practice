@@ -1,3 +1,5 @@
+// main 메서드가 있는 클래스의 이름이 소스파일과 이름이 같아야 한다.
+// 에러는 나지 않지만 실행이 안될 것(이클립스가 main메서드가 어디 있는지 알아야 실행을 하기 때문)
 class Ex6_1 { 
 	public static void main(String args[]) { 
 		Tv t;                 // Tv인스턴스를 참조하기 위한 변수 t를 선언       
