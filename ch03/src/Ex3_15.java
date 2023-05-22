@@ -18,5 +18,5 @@ class Ex3_15 {
 			System.out.printf(".%n");
 		}
 		scanner.close();
-	} // main
+	} // main1
 }
